@@ -2,7 +2,7 @@
 
 ## What? ##
 
-A Gatsby site hosted on Netlify with CI/CD build and deploy from the `main` branch.
+A English language blog using Gatsby, hosted on Netlify with a CI/CD build and deploy process from the `main` branch.
 
 ## Why? ##
 
