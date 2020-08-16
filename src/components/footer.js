@@ -3,19 +3,13 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Footer = ({ siteTitle }) => (
-  <footer>
-    <div>
-      <h2>Hello there - I am the footer</h2>
-    </div>
-  </footer>
+  <div className="footer-container d-flex align-items-center justify-content-end">
+    <span>sam.scholefield</span>
+  </div>
 )
 
-Footer.propTypes = {
-  siteTitle: PropTypes.string,
-}
+Footer.propTypes = {}
 
-Footer.defaultProps = {
-  siteTitle: `tasaal`,
-}
+Footer.defaultProps = {}
 
 export default Footer
