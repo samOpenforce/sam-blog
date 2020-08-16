@@ -1,3 +1,28 @@
-h1 {
-  color: purple;
+@import "~bootstrap/scss/bootstrap";
+@import "colors.scss";
+@import "fonts.scss";
+@import "header.scss";
+@import "footer.scss";
+
+body,
+html {
+  margin: 0;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+.row {
+  margin: 0;
+}
+
+.main-container {
+  padding: 32px 16px 32px 16px;
+  flex-grow: 1;
+}
+
+// STICKY FOOTER
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
